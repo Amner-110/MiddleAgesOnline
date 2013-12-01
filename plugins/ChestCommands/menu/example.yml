@@ -18,7 +18,6 @@ menu-settings:
   # open-with-item - OPTIONAL (you can remove this or
   # set the item to 0)
   open-with-item:
-    item-id: 30
     left-click: false
     right-click: false
 
