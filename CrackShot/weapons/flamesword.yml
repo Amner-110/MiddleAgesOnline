@@ -1,0 +1,37 @@
+Flamesword:
+    Item_Information:
+        Item_Name: "&e炎の鉄剣"
+        Item_Type: 267
+        Item_Lore: "&e火より強い炎の鉄剣。|&e相手を火だるまにすることができる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: GHAST_FIREBALL-1-1-0
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-1-1
+        Removal_Or_Drag_Delay: 20-true
+        Projectile_Damage: 5
+        Bullet_Spread: 0
+        Sounds_Shoot: GHAST_FIREBALL-1-1-1
+    Explosions:
+        Enable: true
+        Ignite_Victims: 100
+        Damage_Multiplier: 0
+        Explosion_No_Damage: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: false
+        Explosion_Delay: 0
+        Sounds_Shooter: GHAST_FIREBALL-1-1-0
+        Sounds_Victim: GHAST_FIREBALL-1-1-0
+        Sounds_Explode: GHAST_FIREBALL-1-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: flames-10
+        Particle_Hit: flames-10

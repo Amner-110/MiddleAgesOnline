@@ -1,0 +1,192 @@
+﻿Tolerancestone:
+    Item_Information:
+        Item_Name: "&e耐性の魔石"
+        Item_Type: 370
+        Item_Lore: "&e使用すると自分の|&e耐性能力が一時的に上がる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: IRONGOLEM_HIT-1-1-0
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-1
+        Removal_Or_Drag_Delay: 0-true
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: IRONGOLEM_HIT-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: DAMAGE_RESISTANCE-400-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: false
+    Extras:
+        One_Time_Use: true
+firestone:
+    Item_Information:
+        Item_Name: "&e火炎の魔石"
+        Item_Type: 370
+        Item_Lore: "&e使用すると自分の|&e火耐性能力が一時的に上がる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: GHAST_FIREBALL-1-1-0
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-1
+        Removal_Or_Drag_Delay: 0-true
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: GHAST_FIREBALL-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: FIRE_RESISTANCE-400-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: false
+    Extras:
+        One_Time_Use: true
+waterstone:
+    Item_Information:
+        Item_Name: "&e水の魔石"
+        Item_Type: 370
+        Item_Lore: "&e使用すると自分の|&e肺活量が一時的に上がる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: SWIM-1-1-0
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-1
+        Removal_Or_Drag_Delay: 0-true
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: SWIM-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: WATER_BREATHING-400-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: false
+    Extras:
+        One_Time_Use: true
+powerstone:
+    Item_Information:
+        Item_Name: "&e力の魔石"
+        Item_Type: 370
+        Item_Lore: "&e使用すると自分の|&e攻撃力が一時的に上がる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: BLAZE_HIT-1-1-0
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-1
+        Removal_Or_Drag_Delay: 0-true
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: BLAZE_HIT-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: INCREASE_DAMAGE-400-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: false
+    Extras:
+        One_Time_Use: true
+speedstone:
+    Item_Information:
+        Item_Name: "&e俊敏の魔石"
+        Item_Type: 370
+        Item_Lore: "&e使用すると自分の|&e足の速さが一時的に上がる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: ENDERMAN_TELEPORT-1-1-0
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-1
+        Removal_Or_Drag_Delay: 0-true
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: ENDERMAN_TELEPORT-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SPEED-400-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: false
+    Extras:
+        One_Time_Use: true
+jumpstone:
+    Item_Information:
+        Item_Name: "&e跳躍の魔石"
+        Item_Type: 370
+        Item_Lore: "&e使用すると自分の|&e跳躍力が一時的に上がる"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: GLASS-1-1-0
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 0
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-NONE-1
+        Removal_Or_Drag_Delay: 0-true
+        Projectile_Speed: 0
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: GLASS-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: JUMP-400-2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+        Particle_Terrain: false
+    Extras:
+        One_Time_Use: true

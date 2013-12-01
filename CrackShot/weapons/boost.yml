@@ -1,0 +1,35 @@
+Boost:
+    Item_Information:
+        Item_Name: "&eブースト"
+        Item_Type: 131
+        Item_Lore: "&e火薬の高火力な爆発を使い|&e飛ぶことが出来る"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: -20
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-1-1
+        Projectile_Damage: 0
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,EXPLODE-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 289
+        Take_Ammo_Per_Shot: false
+        Sounds_Out_Of_Ammo: DIG_GRASS-1-2-0
+        Sounds_Shoot_With_No_Ammo: DIG_GRAVEL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 200
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: explosion
+    Abilities:
+        No_Fall_Damage: true
+    Extras:
+        Disable_Underwater: true

@@ -1,0 +1,51 @@
+yakusou:
+    Item_Information:
+        Item_Name: "薬草"
+        Item_Type: 31~2
+        Item_Lore: "&eハート2個分回復する"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: GLASS-2-2-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Skip_Name_Check: true
+        Projectile_Subtype: 1-1-1-1
+        Sounds_Shoot: EAT-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-1-1
+    Extras:
+        One_Time_Use: true
+
+kaifukuyaku:
+    Item_Information:
+        Item_Name: "回復薬"
+        Item_Type: 373
+        Item_Lore: "&eハート4個分回復する"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: GLASS-2-2-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 1-1-1-1
+        Sounds_Shoot: DRINK-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: HEAL-1-2
+    Extras:
+        One_Time_Use: true
+    Crafting:
+        Enable: true
+        Shaped: false
+        Ingredients: 31~2,37
+
+
+
+
+        
+
+        
