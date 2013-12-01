@@ -10,7 +10,7 @@ database:
         port: 3306
         databaseName: 'minecraft'
         user: 'root'
-        password: 'e05118shouta'
+        password: ''
         
 #Import data from the old Bankcraft
     importOldData: false
