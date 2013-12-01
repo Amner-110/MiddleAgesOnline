@@ -1,14 +1,14 @@
 ﻿#version: c6722b548561898219f72ff1d8f75b8ba0ee4083
-playerNotFound: '§cNo such player: §f%player'
-kitNotFound: '§cNo such kit: §f%kit'
-pluginNotFound: '§cNo such plugin: §f%plugin'
-worldNotFound: '§cNo such world: §f%world'
-unknownMat: '§cUnknown material : §f%material'
-onlinePlayers: '§cOnline players: '
-serverReload: §aThe server has been reloaded.
-changedWorld: §4All your powers have been deactivated because you teleported to an another world
-stillInv: §cYou are still invisible.
-errorNotPerm: §fYou don't have permission to do that §c(%p)
+playerNotFound: '§cプレイヤーが見つかりませんでした: §f%player'
+kitNotFound: '§cきっとが見つかりませんでした: §f%kit'
+pluginNotFound: '§cそのプラグインは存在しません: §f%plugin'
+worldNotFound: '§cそのワールドは存在しません: §f%world'
+unknownMat: '§c不明なマテリアル : §f%material'
+onlinePlayers: '§cオンラインのプレイヤー: '
+serverReload: §aサーバーのリロードを開始します
+changedWorld: §4ワールドを移動した為すべての効果を解除しました
+stillInv: §cあなたは透明状態になりました
+errorNotPerm: §f権限がありません §c(%p)
 dropItemOtherPlayer: §c[%sender]§f dropped §6%amount %material at your location.
 dropItemCommandSender: §cDropped §6%amount %material to §f%target
 dropItemYourself: §cDropped §6%amount %material
