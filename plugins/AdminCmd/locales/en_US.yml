@@ -1,0 +1,24 @@
+﻿MOTD: '§6Welcome §f%player §6there is currently §4%nb players connected:
+
+  §6%connected
+
+  §2You''ve played so far: §b#elapsedTotalTime#
+
+  §2Your last login was: §b%lastlogin'
+MOTDNewUser: '§6Welcome §f%player §6there is currently §4%nb players connected:
+
+  §6%connected'
+NEWS: '§2News: AdminCmd Plugin has been installed'
+Rules: '御参加ありがとうございます。
+
+  作業内容の確認は下記wikiページよりお願いします
+
+  http://wiki.maonline.org/d/works
+
+
+  また、作業進行状況の更新、追加にもご協力お願いします。
+
+
+  ※民家建築を担当されている方へ
+
+  民家の内装はゲーム内で家を買われたプレイヤーが作りますので、内装作業は大丈夫です。'

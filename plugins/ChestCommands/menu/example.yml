@@ -1,0 +1,79 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1目的地を選択して下さい'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'minecraftcomands12032321203'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 30
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+luke01:
+  COMMAND: 'warp mao002'
+  NAME: 'ルークアリア領-ルーク'
+  DESCRIPTION:
+    - '&4移動コスト:500Rions'
+  ICON-ITEM: 22
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+lukuarenaq11:
+  COMMAND: ''
+  NAME: 'ルークアリア領-'
+  DESCRIPTION:
+    - '&4移動コスト:1000Rions'
+  ICON-ITEM: 22
+  POSITION-X: 1
+  POSITION-Y: 2
+
+luke03:
+  COMMAND: ''
+  NAME: 'ルークアリア領-'
+  DESCRIPTION:
+    - '&4移動コスト:3000Rions'
+  ICON-ITEM: 22
+  POSITION-X: 1
+  POSITION-Y: 3
+
+luke04:
+  COMMAND: ''
+  NAME: 'ルークアリア領-'
+  DESCRIPTION:
+    - '&4移動コスト:3000Rions'
+  ICON-ITEM: 22
+  POSITION-X: 1
+  POSITION-Y: 4
+
+luke05:
+  COMMAND: ''
+  NAME: 'A国領-'
+  DESCRIPTION:
+    - '&4移動コスト:3000Rions'
+  ICON-ITEM: 45
+  POSITION-X: 3
+  POSITION-Y: 1
+
+

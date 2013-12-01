@@ -1,0 +1,79 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1ご利用ありがとうございます。ご用件は？'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'minecraftcomands12032321202222222223'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 0
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+luke01:
+  COMMAND: 'balance'
+  NAME: '残高照会'
+  DESCRIPTION:
+    - '現在のお預かり金額を表示します'
+  ICON-ITEM: 265
+  POSITION-X: 2
+  POSITION-Y: 2
+
+
+lukuarenaq11:
+  COMMAND: ''
+  NAME: 'お預かり&31000Rions'
+  DESCRIPTION:
+  - '&31000Rionsを預けます'
+  ICON-ITEM: 22
+  POSITION-X: 2
+  POSITION-Y: 3
+
+luke03:
+  COMMAND: ''
+  NAME: 'ルークアリア領-'
+  DESCRIPTION:
+    - '&4移動コスト:3000Rions'
+  ICON-ITEM: 22
+  POSITION-X: 1
+  POSITION-Y: 3
+
+luke04:
+  COMMAND: ''
+  NAME: 'ルークアリア領-'
+  DESCRIPTION:
+    - '&4移動コスト:3000Rions'
+  ICON-ITEM: 22
+  POSITION-X: 1
+  POSITION-Y: 4
+
+luke05:
+  COMMAND: ''
+  NAME: 'A国領-'
+  DESCRIPTION:
+    - '&4移動コスト:3000Rions'
+  ICON-ITEM: 45
+  POSITION-X: 3
+  POSITION-Y: 1
+
+

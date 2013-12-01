@@ -1,0 +1,65 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&4Chest Commands'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'menu'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 340
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+website:
+  COMMAND: 'tell:&7Website: &9dev.bukkit.org/bukkit-plugins/chest-commands'
+  NAME: '&9[+] Plugin website [+]'
+  DESCRIPTION:
+    - '&7Link to the website of the plugin.'
+    - '&7Click to get the link.'
+  ICON-ITEM: 327
+  POSITION-X: 3
+  POSITION-Y: 2
+
+
+tutorial:
+  COMMAND: 'open:plugin-tutorial.yml'
+  NAME: '&a[+] Plugin tutorial [+]'
+  DESCRIPTION:
+    - '&7Click to open a menu that'
+    - '&7will teach you how to use'
+    - '&7ChestCommands.'
+  ICON-ITEM: 340
+  POSITION-X: 5
+  POSITION-Y: 2
+
+
+example:
+  COMMAND: 'open:example.yml'
+  NAME: '&e[+] Example menu [+]'
+  DESCRIPTION:
+    - '&7How should a menu look like.'
+    - '&7You will find examples on'
+    - '&7every feature.'
+  ICON-ITEM: 54
+  POSITION-X: 7
+  POSITION-Y: 2

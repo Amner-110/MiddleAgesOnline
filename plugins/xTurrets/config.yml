@@ -1,0 +1,48 @@
+TurretTypes:
+  DEFAULT:
+    Id: 0
+    Primary:
+      Launches: ARROW
+      Amount: 10
+      Speed: 2
+      Delay: 0.25
+      Damage: 1.5
+    Secondary:
+      Launches: FIREBALL
+      Delay: 2
+      Damage: 1.5
+      Speed: 6
+      ImpactEffects:
+        Explosion:
+          Force: 5
+          SetFire: true
+          BlockDamage: false
+  Thor:
+    Id: 1
+    Primary:
+      Launches: ARROW
+      Delay: 0.25
+      Speed: 2
+      Damage: 2
+      ImpactEffects:
+        Lightning:
+          Amount: 20
+          EffectOnly: false
+  Creeper:
+    Id: 2
+    Primary:
+      Launches: EGG
+      Delay: 1
+      Damage: 10
+      ImpactEffects:
+        Spawn:
+          CREEPER: 1
+      Secondary:
+        Launches: SNOWBALL
+        EntityEffects:
+          PotionEffects:
+            Wither:
+              Duration: 5
+            Absorption:
+              Duration: 50
+              Level: 10

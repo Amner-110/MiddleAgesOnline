@@ -1,0 +1,36 @@
+Firebook:
+    Item_Information:
+        Item_Name: "&e火の魔道書"
+        Item_Type: 340
+        Item_Lore: "&e火の効果をもった魔道書。|&e武器と組み合わせると|&e火の魔法が使えるようになる。"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: LAVA_POP-1-1-0
+    Shooting:
+        Disable: true
+Flamebook:
+    Item_Information:
+        Item_Name: "&e炎の魔道書"
+        Item_Type: 340
+        Item_Lore: "&e炎の効果をもった|&e火より強い魔道書|&e武器と組み合わせると|&e火の魔法が使えるようになり|&e相手を燃やすことができる。"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: LAVA-1-1-0
+    Shooting:
+        Disable: true
+Waterbook:
+    Item_Information:
+        Item_Name: "&e水の魔道書"
+        Item_Type: 340
+        Item_Lore: "&e水の効果をもった魔道書|&e武器と組み合わせると|&e水の魔法が使えるようになる。"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: WATER-1-1-0
+    Shooting:
+        Disable: true
+Waterflowbook:
+    Item_Information:
+        Item_Name: "&e水流の魔道書"
+        Item_Type: 340
+        Item_Lore: "&e水流の効果をもった|&e水より強い魔道書|&e武器と組み合わせると|&e水の魔法が使えるようになり|&e相手の足を遅くすることができる。"
+        Remove_Unused_Tag: true
+        Sounds_Acquired: WATER-1-1-0
+    Shooting:
+        Disable: true

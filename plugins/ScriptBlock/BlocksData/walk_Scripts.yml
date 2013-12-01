@@ -1,0 +1,29 @@
+world:
+    150,103,175:
+    - Author:hariemon/admin
+    - '@command /chestcommands open example.yml'
+    148,103,177:
+    - Author:hariemon/admin
+    - '@command /chestcommands open example.yml'
+    150,103,177:
+    - Author:hariemon/admin
+    - '@command /chestcommands open example.yml'
+    148,103,175:
+    - Author:hariemon/admin
+    - '@command /chestcommands open example.yml'
+    263,112,166:
+    - Author:hariemon/admin
+    - '@command /chc open BANK'
+    266,112,166:
+    - Author:hariemon/admin
+    - '@command /chc open BANK'
+    268,112,166:
+    - Author:hariemon/admin
+    - '@command /chc open BANK'
+    271,112,166:
+    - Author:hariemon/admin
+    - '@command /chc open BANK'
+    273,112,166:
+    - Author:hariemon/admin
+    - '@command /chc open BANK'
+arena: {}

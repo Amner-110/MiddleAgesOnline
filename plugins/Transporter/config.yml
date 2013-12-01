@@ -1,0 +1,13 @@
+pins: {}
+servers: []
+global: null
+worlds:
+- {environment: NETHER, seed: '3155426882302200093', name: world_nether, generator: null,
+    autoLoad: true}
+- {environment: NORMAL, seed: '5659310527484687510', name: world, generator: null,
+    autoLoad: true}
+- {environment: THE_END, seed: '3155426882302200093', name: world_the_end, generator: null,
+    autoLoad: true}
+configVersion: 2
+network:
+    bannedAddresses: []

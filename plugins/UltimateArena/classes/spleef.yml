@@ -1,0 +1,12 @@
+armor:
+  chestplate: '307'
+  leggings: '308'
+  boots: '309'
+tools:
+  '1': 277,1
+useEssentials: false
+essentialsKit: ''
+useHelmet: true
+permissionNode: ''
+hasPotionEffects: false
+potionEffects: ''

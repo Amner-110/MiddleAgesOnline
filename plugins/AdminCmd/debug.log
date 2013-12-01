@@ -1,0 +1,8 @@
+17:52:40.117 [INFO] *DebugLog.setFile* : Logger created [12] 
+17:52:40.123 [INFO] *AdminCmd.onEnable* : Plugin Version : 8.0.0-SNAPSHOT (BUILD 16.09.2013 @ 17:45:24) [12] 
+17:52:40.140 [INFO] *FileManager.<clinit>* : Git Version : c6722b548561898219f72ff1d8f75b8ba0ee4083 [12] 
+17:52:40.209 [INFO] *ExtendedConfiguration.save* : Saving file : plugins/AdminCmd/config.yml [12] 
+17:52:40.218 [INFO] *ExtendedConfiguration.save* : Saving file : plugins/AdminCmd/config.yml [12] 
+17:52:41.397 [INFO] *Database.initDb* : Database initialization done [12] 
+17:52:41.444 [SEVERE] *EmptyPlayer.<init>* : Empty Player instancied with name : serverConsole [12] 
+17:52:41.453 [INFO] *SQLPlayerFactory.<init>* : Players found : neo0829, wanwano0914, hiraokayuusuke, kkgzsd1025, zero04151231, Ramune311, subaruz5w, ryoukikakarityou, tosi10470, SENRITU_UTAHIME, pikaseiya, oboroyo, AO_n51, hapitann2001, pennsuke, HaagenDarts, yy35yy258k, stream303, Soumu0101, tako956402, AersR, NIWAC204, AirenNyan, kazukazu777, nobukiyo, _lol2, k_sk1030, biroudo0122, masumotoso, otoneko933, kobataku1228, R10r, 31Miichan, sizen, IA01, meteo0505, KaMinogiushio, SETSUNA_05, jotaro1, maronnnn, haruki48, amaama1126, tatunori1110477, s12071, testuser, morutyan, Maotix, motimotieito, kan1515, posthat, rebyia, ttettette_, Shion000, tutumigami5994, ttettette_2, teteko202020, hiroking3160, tarairarai, AKIMUNOV, ponnzukuroko, Tomato_o, Lunasys, Nyamochi, barororon, hariemon, charlotte_witch, kuniokart, yuuki618, Syaura555, ikacyan, watasida299, hayate3336, msj00707, tatsuyatt, SHUMA2000, Likey753, harukaku1130, miyaneko, _BJsoul, micla0320, taisei91, puhchinn, hirocraft1111, unajuuunanuki [12] 

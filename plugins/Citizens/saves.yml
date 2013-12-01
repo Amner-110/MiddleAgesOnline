@@ -1,0 +1,1589 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 100
+npc:
+  '0':
+    name: '&6[雑貨屋] &fクラリッサ'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '176.51379521909243'
+        y: '74.0'
+        z: '219.64322265988312'
+        yaw: '197.14306640625'
+        pitch: '-4.125667095184326'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: '&6[案内人] &fウルズラ'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: arena
+        x: '9.204012523703827'
+        y: '65.0'
+        z: '-131.07689098196482'
+        yaw: '5.293037414550781'
+        pitch: '0.0'
+      speech: chat
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 先に進むには直ぐ先の階段を上がってみましょう。
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: text,owner,type,spawned,location,lookclose,speech
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §6[案内人] §fラウラ
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: arena
+        x: '6.077745127329325'
+        y: '74.0'
+        z: '-157.7653573337056'
+        yaw: '225.0919189453125'
+        pitch: '-17.764053344726562'
+      speech: chat
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&6初めに、貴方が生活する国家を決めましょう。ゲートを潜ったら生活の始まりです'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: text,owner,type,spawned,location,lookclose,speech
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: '&6[武器商人] &fトム'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '175.68615826600552'
+        y: '74.0'
+        z: '213.04310713581594'
+        yaw: '231.417724609375'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: §6[防具商人] §fロニー
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '178.82499998807907'
+        y: '74.0'
+        z: '214.40898120396577'
+        yaw: '220.21795654296875'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: '&6[薬剤師] &fイタ'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '182.55904125573582'
+        y: '74.0'
+        z: '212.27844521866177'
+        yaw: '224.4998779296875'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    name: §6[農家] §fマンフレート
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '190.55138071404338'
+        y: '74.0'
+        z: '215.8084893701778'
+        yaw: '85.99826049804688'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    name: '&6[住民] &fマルテ'
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '188.70970684304413'
+        y: '74.0'
+        z: '216.05411274002935'
+        yaw: '254.43777465820312'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    name: §6[調理師] §fヴェルンハル
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '190.6894393072599'
+        y: '74.0'
+        z: '213.56580366889494'
+        yaw: '219.08309936523438'
+        pitch: '-13.172606468200684'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    name: §6[種子屋] §fシーダ
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '194.39680529357594'
+        y: '74.0'
+        z: '212.99202108682786'
+        yaw: '181.91876220703125'
+        pitch: '-21.360233306884766'
+      nickname: あ
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    name: §6[案内人] §fローゼ
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '266.58510094514656'
+        y: '91.0'
+        z: '210.55439597722304'
+        yaw: '122.36421203613281'
+        pitch: '5.207324028015137'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    name: '&6[役場職員] &fマリア'
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '281.6018698469753'
+        y: '91.0'
+        z: '212.30000001192093'
+        yaw: '176.7327880859375'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    name: §6[役場職員] §fエリノア
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '283.45133126026633'
+        y: '91.0'
+        z: '212.30000001192093'
+        yaw: '179.16925048828125'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    name: §6[役場職員] §fエッダ
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '285.524456391997'
+        y: '91.0'
+        z: '212.30000001192093'
+        yaw: '180.40850830078125'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    name: §6[役場職員] §fリサ
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '287.5420977671449'
+        y: '91.0'
+        z: '212.30000001192093'
+        yaw: '181.11465454101562'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    name: §6[役場職員] §fグレテール
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '289.6668394310401'
+        y: '91.0'
+        z: '212.30000001192093'
+        yaw: '126.63041687011719'
+        pitch: '-4.073070049285889'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: §6[農家] §fクルー
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '179.75383049870823'
+        y: '74.0'
+        z: '224.69999998807907'
+        yaw: '-32.47848129272461'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    name: '&6[馬屋管理人] &fイヴァン'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '196.57839538209902'
+        y: '69.0'
+        z: '268.6743088904627'
+        yaw: '121.14360046386719'
+        pitch: '-4.360324859619141'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    name: §6[住民] §fトル
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '276.0675554288101'
+        y: '91.0'
+        z: '211.51950818360066'
+        yaw: '-49.577308654785156'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    name: §6[住民] §fエグモント
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '277.5829662482591'
+        y: '91.0'
+        z: '212.6827210471661'
+        yaw: '123.61222839355469'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '25':
+    name: §6[役場職員] §fウラ
+    traits:
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '281.59391822772704'
+        y: '91.0'
+        z: '202.69999998807907'
+        yaw: '-0.3578338623046875'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '32':
+    name: '&6[案内人] &fヴィルダ'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '-734.5338443429977'
+        y: '64.0'
+        z: '579.805538409548'
+        yaw: '214.13284301757812'
+        pitch: '0.0'
+      quester:
+        quester:
+          holder: 0
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,quester,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '33':
+    name: '&6[村長]&fイェンス'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '-610.455516786394'
+        y: '67.0'
+        z: '546.3158319919216'
+        yaw: '-34.78141784667969'
+        pitch: '-18.374679565429688'
+      quester:
+        quester:
+          holder: 1
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,quester,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '34':
+    name: '&6[村人]&fグンドルフ'
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '-609.848215069435'
+        y: '67.0'
+        z: '565.376852683056'
+        yaw: '-73.74415588378906'
+        pitch: '-18.429828643798828'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '35':
+    name: §6[村人]§fフリーダ
+    traits:
+      spawned: true
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner: hariemon
+      location:
+        world: world
+        x: '-606.1950867394032'
+        y: '67.0'
+        z: '571.5098712574494'
+        yaw: '233.51052856445312'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '36':
+    name: §6[村人]§fレナーテ
+    traits:
+      spawned: true
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+      owner: hariemon
+      location:
+        world: world
+        x: '-604.0747224055461'
+        y: '67.0'
+        z: '570.3630659925325'
+        yaw: '56.91648864746094'
+        pitch: '0.0'
+    traitnames: owner,type,spawned,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '37':
+    name: §6[村人]§fゲルダ
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '-608.6999999880791'
+        y: '63.0'
+        z: '569.6999999880791'
+        yaw: '250.29739379882812'
+        pitch: '-45.96284866333008'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '38':
+    name: §6[農家]§fエドゥアルト
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '-603.9599006338847'
+        y: '67.5'
+        z: '563.9854850186813'
+        yaw: '-42.60894012451172'
+        pitch: '3.783142328262329'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '39':
+    name: §6[雑貨屋]§fヘレーナ
+    traits:
+      spawned: true
+      owner: hariemon
+      location:
+        world: world
+        x: '-617.9525521667066'
+        y: '66.0'
+        z: '574.3692419199187'
+        yaw: '172.84341430664062'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '94':
+    name: §6[農場管理人]§fエルシャ
+    traits:
+      quester:
+        quester:
+          holder: 2
+      location:
+        world: world
+        x: '-597.9250000119209'
+        y: '75.0'
+        z: '520.5329733387166'
+        yaw: '215.22323608398438'
+        pitch: '-4.17197322845459'
+      owner: hariemon
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,type,spawned,quester,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '93':
+    name: ルークアリア兵
+    traits:
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-292.0'
+                y: '91.0'
+                z: '978.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      equipment:
+        hand:
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-308.21842180186684'
+        y: '65.0'
+        z: '979.2599305992292'
+        yaw: '3.1458740234375'
+        pitch: '2.2499959468841553'
+      owner: Ramune311
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,waypoints,owner,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '92':
+    name: ルークアリア兵
+    traits:
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-292.0'
+                y: '91.0'
+                z: '985.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      equipment:
+        hand:
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-308.21842180186684'
+        y: '65.0'
+        z: '979.2599305992292'
+        yaw: '3.1458740234375'
+        pitch: '2.2499959468841553'
+      owner: Ramune311
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,waypoints,owner,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '90':
+    name: ルークアリア兵
+    traits:
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-292.0'
+                y: '91.0'
+                z: '969.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      equipment:
+        hand:
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-308.21842180186684'
+        y: '65.0'
+        z: '979.2599305992292'
+        yaw: '3.1458740234375'
+        pitch: '2.2499959468841553'
+      owner: Ramune311
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,waypoints,owner,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '89':
+    name: ルークアリア兵
+    traits:
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-309.0'
+                y: '64.0'
+                z: '976.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      equipment:
+        hand:
+          type: IRON_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-308.7666764699864'
+        y: '65.0'
+        z: '976.768895552495'
+        yaw: '-135.23403930664062'
+        pitch: '0.0'
+      owner: Ramune311
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,owner,waypoints,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '86':
+    name: ルークアリア兵
+    traits:
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-283.0'
+                y: '64.0'
+                z: '975.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      equipment:
+        hand:
+          type: IRON_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-308.21842180186684'
+        y: '65.0'
+        z: '979.2599305992292'
+        yaw: '3.1458740234375'
+        pitch: '2.2499959468841553'
+      owner: Ramune311
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,owner,waypoints,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '85':
+    name: ルークアリア兵
+    traits:
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-284.0'
+                y: '64.0'
+                z: '989.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      equipment:
+        hand:
+          type: IRON_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-308.21842180186684'
+        y: '65.0'
+        z: '979.2599305992292'
+        yaw: '3.1458740234375'
+        pitch: '2.2499959468841553'
+      owner: Ramune311
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,waypoints,owner,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '96':
+    name: ルークアリア兵
+    traits:
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      equipment:
+        hand:
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-292.0'
+                y: '91.0'
+                z: '995.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      owner: Ramune311
+      location:
+        world: world
+        x: '-308.21842180186684'
+        y: '65.0'
+        z: '979.2599305992292'
+        yaw: '3.1458740234375'
+        pitch: '2.2499959468841553'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,waypoints,owner,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '95':
+    name: §6[釣り人]
+    traits:
+      equipment:
+        hand:
+          type: FISHING_ROD
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      waypoints:
+        linear: {}
+        provider: linear
+      owner: hariemon
+      quester:
+        quester:
+          holder: 3
+      location:
+        world: world
+        x: '-625.4274154577408'
+        y: '66.0'
+        z: '530.1343573055979'
+        yaw: '315.75048828125'
+        pitch: '50.2500114440918'
+    traitnames: equipment,owner,waypoints,type,spawned,quester,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '97':
+    name: ルークアリア兵
+    traits:
+      sentry:
+        toggled: true
+        Retaliate: true
+        Invincinble: false
+        DropInventory: false
+        KillDrops: true
+        Targetable: true
+        MountID: -1
+        CriticalHits: true
+        Targets:
+        - 'ENTITY: MONSTER'
+        - ENTITY:MONSTER
+        Ignores: []
+        Spawn:
+          x: '-308.21842180186684'
+          y: '65.0'
+          z: '979.2599305992292'
+          world: world
+          yaw: '3.1458740234375'
+          pitch: '2.2499959468841553'
+        Health: '40.0'
+        Range: 10
+        RespawnDelay: 10
+        Speed: '1.0'
+        Weight: '1.0'
+        HealRate: '10.0'
+        Armor: 0
+        Strength: 8
+        WarningRange: 0
+        AttackRate: '2.0'
+        NightVision: 16
+        FollowDistance: 4
+        Warning: '&c<NPC> says Halt! Come no closer!'
+        Greeting: '&a<NPC> says Welcome, <PLAYER>'
+      equipment:
+        hand:
+          type: IRON_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: LEATHER_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            armor:
+              color: 3361970
+        chestplate:
+          type: IRON_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: IRON_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: IRON_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: world
+                x: '-309.0'
+                y: '64.0'
+                z: '988.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      owner: Ramune311
+      location:
+        world: world
+        x: '-308.7752971532426'
+        y: '65.0'
+        z: '988.146337436818'
+        yaw: '-397.8814697265625'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: equipment,waypoints,owner,type,spawned,sentry,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: 100
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '100':
+    name: ジョセフ
+    traits:
+      text:
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Hi, I'm <npc>!
+      owner: Nyamochi
+      location:
+        world: world
+        x: '-599.995172832062'
+        y: '73.0'
+        z: '530.5574294245413'
+        yaw: '154.85708618164062'
+        pitch: '-9.279528617858887'
+      equipment:
+        hand:
+          type: STONE_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type: LEATHER_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: LEATHER_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: LEATHER_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: text,equipment,owner,type,spawned,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

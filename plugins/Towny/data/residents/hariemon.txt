@@ -1,0 +1,11 @@
+lastOnline=1385729512186
+registered=1383910094405
+isNPC=false
+title=
+surname=
+town=rook
+town-ranks=
+nation-ranks=
+friends=
+townBlocks=
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse

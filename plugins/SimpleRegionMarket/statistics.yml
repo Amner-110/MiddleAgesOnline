@@ -1,0 +1,22 @@
+world:
+  global:
+    token:
+      all: 1
+      sell: 1
+    price:
+      all: 100
+      sell: 100
+  users:
+    hariemon:
+      buyedtokens:
+        all: 1
+        sell: 1
+      selledtokens:
+        all: 1
+        sell: 1
+      payedprice:
+        all: 100
+        sell: 100
+      earnedprice:
+        all: 100
+        sell: 100

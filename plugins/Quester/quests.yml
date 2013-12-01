@@ -1,0 +1,127 @@
+たまには息抜きを:
+  name: たまには息抜きを
+  objectives:
+    '0':
+      type: FISH
+      amount: 5
+    '1':
+      type: NPC
+      index: 95
+  ID: 7
+炭鉱夫のススメ:
+  name: 炭鉱夫のススメ
+  objectives:
+    '0':
+      type: BREAK
+      block: '16'
+      amount: 10
+      inhand: 274
+    '1':
+      type: ITEM
+      item: '263'
+      amount: 10
+  ID: 6
+農業のススメ:
+  name: 農業のススメ
+  flags: ACTIVE;
+  objectives:
+    '0':
+      type: NPC
+      index: 94
+  ID: 3
+ゾンビ5対討伐(kari):
+  name: ゾンビ5対討伐(kari)
+  flags: ACTIVE;
+  objectives:
+    '0':
+      type: MOBKILL
+      amount: 5
+      entity: '54'
+    '1':
+      type: NPC
+      index: 33
+  ID: 2
+今日の晩飯:
+  name: 今日の晩飯
+  description: なかなか魚が釣れなくて困っているんだが・・・ そこで頼みたいんだけど、 魚を5匹ほど持ってきてくれないかな？
+  flags: ACTIVE;
+  objectives:
+    '0':
+      type: COLLECT
+      item: '349'
+      amount: 3
+    '1':
+      type: COLLECT
+      item: '349'
+      amount: 3
+    '2':
+      type: COLLECT
+      item: '349'
+      amount: 5
+    '3':
+      type: NPC
+      index: 95
+  events:
+    '0':
+      type: ITEM
+      occasion: 1
+      item: '346'
+    '1':
+      type: ITEM
+      occasion: 1
+      item: '346'
+  ID: 9
+森の少女に話を聞く:
+  name: 森の少女に話を聞く
+  ID: 4
+さっそくじゃが・・:
+  name: さっそくじゃが・・
+  description: 'ほぅ、貴方が%pか。よくぞ此処まで辿り着いたのう。歓迎するぞい
+
+    早速じゃが、昨日の大雨で家の屋根が剥がれてしまったんじゃ。 腕試しついでにスライム狩りにでも行ってみてくれんかのう
+
+    頼んじゃぞ。'
+  flags: ACTIVE;
+  objectives:
+    '0':
+      type: ITEM
+      item: '341'
+      amount: 5
+    '1':
+      type: NPC
+      index: 33
+  ID: 1
+村長にご挨拶:
+  name: 村長にご挨拶
+  description: "ようこそMiddleAgesOnlineへ！\n %pさん、村長が待っています。直ぐ先の村に行って村長のイエンスに挨拶しましょう。"
+  flags: UNCANCELLABLE;ACTIVE;
+  objectives:
+    '0':
+      type: NPC
+      index: 33
+  conditions:
+    '0':
+      type: QUESTNOT
+      quest: 村長にご挨拶
+    '1':
+      type: QUEST
+      quest: t:0_0 0
+    '2':
+      type: QUEST
+      quest: '0'
+  ID: 0
+水汲み:
+  name: 水汲み
+  objectives:
+    '0':
+      type: ITEM
+      item: '326'
+    '1':
+      type: NPC
+      index: 94
+      cancel: true
+  ID: 5
+馬の餌を調達せよ:
+  name: 馬の餌を調達せよ
+  description: '&3干草の俵５つの調達 最近干草が少なくなってきたから調達してきてくれないかい？'
+  ID: 8

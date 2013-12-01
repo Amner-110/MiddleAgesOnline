@@ -1,0 +1,8 @@
+﻿
+
+bans:
+  teteko202020: !!be.Balor.Player.BannedPlayer
+    banner: Server Admin
+    date: 2013-11-07T13:18:30.545Z
+    player: teteko202020
+    reason: 建築作業の妨害及びコマンドの乱用

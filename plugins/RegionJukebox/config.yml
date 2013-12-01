@@ -1,0 +1,6 @@
+# Configuration for RegionJukebox
+# 
+# LoopMusic - true: Record will loop after it has finished / false: Record will not loop when finished
+# CheckForUpdates - true: Plugin will check for updated versions and download if needed / false: Plugin will NOT check for updated versions
+
+Regions: {}

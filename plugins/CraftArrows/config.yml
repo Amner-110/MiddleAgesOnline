@@ -1,0 +1,328 @@
+Reminder: true
+UsePermissions: true
+InfinityBowWorks: false
+Autoupdate: true
+CripplingEnabled: true
+TeleportEnabled: true
+BlindingEnabled: true
+WeaknessEnabled: true
+ExplosiveEnabled: true
+ShuffleEnabled: true
+LightningEnabled: true
+ConfusionEnabled: true
+TntEnabled: true
+PoisonEnabled: true
+FireEnabled: true
+PullEnabled: true
+BloodEnabled: true
+PiercingEnabled: true
+RazorEnabled: true
+NetEnabled: true
+TorchEnabled: true
+Recipes:
+  Crippling:
+    Name: Crippling Arrow
+    Desc: Slows down target
+    Duration: 60
+    Power: 2
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - FEATHER
+    - STICK
+    - SNOW_BALL
+    - null
+    Shape-1: CCC
+    Shape-2: DBD
+    Shape-3: DAD
+  Weakness:
+    Name: Weakness Arrow
+    Desc: Weaken foes
+    Duration: 120
+    Power: 1
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - STICK
+    - FEATHER
+    - CACTUS
+    - null
+    Shape-1: CCC
+    Shape-2: DAD
+    Shape-3: DBD
+  Teleport:
+    Name: Teleport Arrow
+    Desc: Teleports you to your arrow
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - FEATHER
+    - STICK
+    - BOOK
+    - null
+    Shape-1: DCD
+    Shape-2: DBD
+    Shape-3: DAD
+  Explosive:
+    Name: Explosive Arrow
+    Desc: Create an explosion
+    Power: 4
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - TNT
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Blinding:
+    Name: Blinding Arrow
+    Desc: Blinds your target
+    Duration: 30
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - ROTTEN_FLESH
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: AAA
+    Shape-2: DBD
+    Shape-3: DCD
+  Shuffle:
+    Name: Shuffle Arrow
+    Desc: Switch position with your target
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - ENDER_PEARL
+    - FEATHER
+    - STICK
+    - null
+    Shape-1: DAD
+    Shape-2: DCD
+    Shape-3: DBD
+  Lightning:
+    Name: Lightning Arrow
+    Desc: Strike down lightning
+    Count: 2
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - BLAZE_ROD
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Confusion:
+    Name: Confusion Arrow
+    Desc: Confuses target
+    Duration: 90
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    - E
+    CharMats:
+    - RED_MUSHROOM
+    - STICK
+    - BROWN_MUSHROOM
+    - FEATHER
+    - null
+    Shape-1: CAC
+    Shape-2: EBE
+    Shape-3: EDE
+  Tnt:
+    Name: TnT Arrow
+    Desc: Explode your target
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - SULPHUR
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: ADA
+    Shape-2: DBD
+    Shape-3: DCD
+  Poison:
+    Name: Poison Arrow
+    Desc: Poison your target
+    Duration: 60
+    Power: 2
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - SPIDER_EYE
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Fire:
+    Name: Fire Arrow
+    Desc: Set your enemy alight
+    Duration: 60
+    BurnBlocks: true
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - FIREBALL
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Pull:
+    Name: Pull Arrow
+    Desc: Pulls target to you
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - STRING
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: AAA
+    Shape-2: DBD
+    Shape-3: DCD
+  Blood:
+    Name: Blood Arrow
+    Desc: Deals damage while healing you
+    HealPower: 6
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - BONE
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Piercing:
+    Name: Piercing Arrow
+    Desc: Deals bonus damage to unarmored targets
+    BonusDamage: 4
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - IRON_INGOT
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Razor:
+    Name: Razor Arrow
+    Desc: Deals bonus damage to unarmored targets
+    BonusDamage: 4
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - GLASS
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Torch:
+    Name: Torch Arrow
+    Desc: Light up your surroundings
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - TORCH
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD
+  Net:
+    Name: Net Arrow
+    Desc: Immobilize your target
+    Amount: 1
+    ShapeChars:
+    - A
+    - B
+    - C
+    - D
+    CharMats:
+    - SLIME_BALL
+    - STICK
+    - FEATHER
+    - null
+    Shape-1: DAD
+    Shape-2: DBD
+    Shape-3: DCD

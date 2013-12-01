@@ -1,0 +1,17 @@
+signs: []
+holders:
+  '0':
+    name: チュートリアル
+    quests: '0'
+  '1':
+    name: イェンス
+    quests: 1,2,3
+  '2':
+    name: 農場管理人
+    quests: '5'
+  '3':
+    name: 村人のクエスト
+    quests: '9'
+  '4':
+    name: 釣り人
+    quests: '9'
