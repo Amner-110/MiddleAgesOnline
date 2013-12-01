@@ -1,6 +1,6 @@
 Firebook:
     Item_Information:
-        Item_Name: "&e火の魔道書"
+        Item_Name: "&e火"
         Item_Type: 340
         Item_Lore: "&e火の効果をもった魔道書。|&e武器と組み合わせると|&e火の魔法が使えるようになる。"
         Remove_Unused_Tag: true
