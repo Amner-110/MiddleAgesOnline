@@ -2,16 +2,16 @@ MSG_ONLY_PLAYER: This command can only be run by player.
 MSG_PROFILES_SAVE: Profiles saved.
 MSG_AUTOSAVE_DISABLED: AutoSaving is disabled in config.
 MSG_AUTOSAVE_STARTED: 'Saving started. Interval: %intervalm'
-MSG_AUTOSAVE_RUNNING: Saving already running.
-MSG_AUTOSAVE_STOPPED: Saving Stopped.
+MSG_AUTOSAVE_RUNNING: 既にオートセーブはONになっています。
+MSG_AUTOSAVE_STOPPED: セーブをOFFにしました
 MSG_AUTOSAVE_NOT_RUNNING: Saving not running.
-MSG_CONFIG_RELOADED: Quest configs reloaded.
-MSG_PERMS: You don't have permission for this.
-MSG_Q_STARTED: You have started quest %q
-MSG_Q_COMPLETED: Quest %q completed.
-MSG_Q_CANCELLED: Quest %q cancelled.
-MSG_Q_DEACTIVATED: One of your quests has been deactivated.
-MSG_OBJ_COMPLETED: You completed a quest objective.
+MSG_CONFIG_RELOADED: Configの再読み込みが完了しました
+MSG_PERMS: このコマンドを実行する権限がありません。詳しくはサポートまでご連絡下さい
+MSG_Q_STARTED: クエストを開始しました %q
+MSG_Q_COMPLETED: クエスト %q を達成しました！
+MSG_Q_CANCELLED: クエスト %q をキャンセルしました
+MSG_Q_DEACTIVATED: クエストが非アクティブになりました
+MSG_OBJ_COMPLETED: クエスト項目を達成しました
 INFO_NAME: Name
 INFO_DESCRIPTION: Description
 INFO_LOCATION: Location
