@@ -12,3 +12,23 @@ http://i.imgur.com/Yk23Fxu.jpg
 
 
 4.マージされるまでお待ちください。
+
+
+Works
+=====
+
+・クエスト制作 5/50
+・ローカライズ 
+    -Quester
+    -AdminCmd
+    -BankCeaft
+    -Ieconomy
+    -Shop
+・追加アイテム
+    -CrackShot
+・MOB調整
+    -EpicBoss
+    -Citizens
+・リソースパック
+    -BGM差し替え
+    -ミックス
