@@ -1,0 +1,30 @@
+Ramune311:
+  exp: 100
+  money: 100
+  class:
+    name: ''
+    attack-skill: 0
+    defense-skill: 0
+    intelligence-skill: 0
+    vitality-skill: 0
+    critical-attack: 0
+    dodge-defense: 0
+    skillable-points: 0
+  quests:
+    actual-quests: ''
+    completed-quests: ''
+hariemon:
+  exp: 100
+  money: 100
+  class:
+    name: ''
+    attack-skill: 0
+    defense-skill: 0
+    intelligence-skill: 0
+    vitality-skill: 0
+    critical-attack: 0
+    dodge-defense: 0
+    skillable-points: 0
+  quests:
+    actual-quests: ''
+    completed-quests: ''

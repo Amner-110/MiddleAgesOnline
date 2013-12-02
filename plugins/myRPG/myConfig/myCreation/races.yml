@@ -1,0 +1,18 @@
+Elves:
+  singular: Elf
+  info: '&1The Elves are able to see at night and .....'
+  attributes:
+    start-hitpoints: 20
+    digging-speed: 0
+    breath-under-water: false
+    night-vision: true
+    speed: 2
+    jump: 0
+  stats:
+    start-attack-skill: 20
+    start-defense-skill: 10
+    start-int-skill: 30
+    start-vit-skill: 20
+    start-critical-skill: 20
+    start-dodge-skill: 30
+  

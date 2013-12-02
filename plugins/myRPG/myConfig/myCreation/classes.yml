@@ -1,0 +1,60 @@
+ninja:
+  skills:
+    '5':
+    - firearrow
+    - poisonarrow
+    '7':
+    - vanish
+    '10':
+    - regeneration
+  allowed-materials:
+  - LEATHER_HELMET
+  - WOOD_SWORD
+  - BOW
+  - LEATHER_CHESTPLATE
+  - LEATHER_BOOTS
+  - LEATHER_LEGGINGS
+  - LEATHER_HELMET
+warrior:
+  skills:
+    '5':
+    - magicarmor
+    - magicsword
+    '6':
+    - magicboots
+    '15':
+    - flash
+  allowed-materials:
+  - IRON_SWORD
+  - GOLD_SWORD
+  - IRON_CHESTPLATE
+  - GOLD_CHESTPLATE
+  - IRON_BOOTS
+  - IRON_LEGGINGS
+  - IRON_HELMET
+firemage:
+  skills:
+    '5':
+    - explosion
+    - vanish
+    '7':
+    - shield
+    '10':
+    - fireball
+  allowed-materials:
+  - DIAMOND_HELMET
+  - WOOD_HOE
+  - DIAMOND_CHESTPLATE
+icemage:
+  skills:
+    '5':
+    - iceflash
+    - vanish
+    '7':
+    - shield
+    '10':
+    - snowball
+  allowed-materials:
+  - DIAMOND_HELMET
+  - WOOD_HOE
+  - DIAMOND_CHESTPLATE

@@ -1,0 +1,102 @@
+#EXP AND MONEY SPREAD OF MONSTERS (KILLED BY PLAYER) AND BLOCKS (DESTROYED BY PLAYER)
+block-exp-spread:
+  REDSTONE_ORE:
+    exp: 75
+    money: 5
+  COAL_ORE:
+    exp: 35
+    money: 1
+  STONE:
+    exp: 10
+    money: 0
+  DIAMOND_ORE:
+    exp: 100
+    money: 10
+  GRASS:
+    exp: 10
+    money: 0
+  PUMPKIN:
+    exp: 45
+    money: 5
+mob-exp-spread:
+  PIG:
+    exp: 15
+    money: 5
+  CREEPER:
+    exp: 75
+    money: 25
+  MUSHROOM_COW:
+    exp: 25
+    money: 15
+  SPIDER_JOCKEY:
+    exp: 100
+    money: 35
+  ZOMBIE_PIGMAN:
+    exp: 75
+    money: 35
+  CAVE_SPIDER:
+    exp: 75
+    money: 20
+  WITHER:
+    exp: 1000
+    money: 50
+  SKELETON:
+    exp: 50
+    money: 15
+  WIHER_SKELETON:
+    exp: 100
+    money: 65
+  CHICKEN:
+    exp: 5
+    money: 1
+  MAGMA_CUBE:
+    exp: 75
+    money: 45
+  ENDERMAN:
+    exp: 50
+    money: 30
+  SQUID:
+    exp: 25
+    money: 15
+  OCELOT:
+    exp: 20
+    money: 20
+  ENDER_DRAGON:
+    exp: 1000
+    money: 1000
+  COW:
+    exp: 10
+    money: 2
+  BLAZE:
+    exp: 75
+    money: 45
+  GHAST:
+    exp: 125
+    money: 75
+  VILLAGER:
+    exp: 0
+    money: 0
+  SPIDER:
+    exp: 50
+    money: 10
+  WOLF:
+    exp: 50
+    money: 20
+  SILVERFISH:
+    exp: 75
+    money: 35
+  SLIME:
+    exp: 20
+    money: 10
+  ZOMBIE:
+    exp: 75
+    money: 25
+  BAT:
+    exp: 10
+    money: 10
+  SHEEP:
+    exp: 10
+    money: 2
+  ZOMBIE_VILLAGER:
+    exp: 50
+    money: 50
