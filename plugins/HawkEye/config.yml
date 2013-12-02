@@ -75,7 +75,7 @@ mysql:
   world-table: hawk_worlds
   hostname: localhost
   max-connections: 10
-  password: e05118shouta
+  password: ***
   database: minecraft
 ignore-worlds:
 - thisworldisignored
