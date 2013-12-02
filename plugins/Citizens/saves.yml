@@ -3,7 +3,7 @@
 last-created-npc-id: 100
 npc:
   '0':
-    name: '&6[雑貨屋] &fクラリッサ2'
+    name: '&6[雑貨屋] &fクラリッサ'
     traits:
       spawned: true
       owner: hariemon
