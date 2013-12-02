@@ -51,6 +51,10 @@ _____
 
     -Citizens
 
+・フィールド保護
+
+    -WorldGurad
+
 ・リソースパック
 
     -BGM差し替え
