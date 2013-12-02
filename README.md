@@ -22,16 +22,16 @@ http://i.imgur.com/Yk23Fxu.jpg
 Works
 _____
 
-・クエスト制作 5/50
+・クエスト制作 5/50 Other
 
-・ショップ
+・ショップ 
 
     -UltraTreder
     -NPCの設置(赤、青、はじまりの村)雑貨屋、武具屋、食料品、種子、材木)
 
     -IEconomy
 
-・ローカライズ 
+・ローカライズ Laica-Lunasysさん
 
     -Quester
 
@@ -42,11 +42,11 @@ _____
     -Ieconomy
 
     -Shop
-・追加アイテム
+・追加アイテム　kanさん
 
     -CrackShot
 
-・MOB調整
+・MOB調整 hariemon
 
     -EpicBoss
     -クエストボス
@@ -55,7 +55,7 @@ _____
     -Citizens
     -ネームタグ
 
-・フィールド保護
+・フィールド保護 hariemon
 
     -WorldGurad
     -エリア毎のフラグ設定
