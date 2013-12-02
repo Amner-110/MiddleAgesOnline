@@ -22,6 +22,12 @@ _____
 
 ・クエスト制作 5/50
 
+・ショップ
+
+    -UltraTreder
+
+    -IEconomy
+
 ・ローカライズ 
 
     -Quester
