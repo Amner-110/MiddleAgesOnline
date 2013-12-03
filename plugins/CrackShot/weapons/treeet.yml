@@ -1,11 +1,11 @@
 turret:
     Item_Information:
         Item_Name: "&eturret"
-        Item_Type: 397
+        Item_Type: 145
         Item_Lore: "&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Cancel_Left_Click_Block_Damage: true
+        Cancel_Left_Click_Block_Damage: false
         Melee_Mode: true
         Recoil_Amount: 2
         Projectile_Amount: 1
