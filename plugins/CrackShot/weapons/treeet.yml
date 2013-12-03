@@ -6,8 +6,8 @@ turret:
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
         Melee_Mode: true
     Shooting:
-    	Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
+        Melee_Mode: true
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: fireball
