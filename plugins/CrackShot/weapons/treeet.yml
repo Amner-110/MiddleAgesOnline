@@ -1,21 +1,20 @@
 turret:
     Item_Information:
-        Item_Name: "&eBazooka"
+        Item_Name: "&eturret"
         Item_Type: 417
         Item_Lore: "&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
-        Inventory_Control: Group_Bazookas
     Shooting:
         Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: fireball
         Projectile_Speed: 10
         Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
     Sneak:
-        Enable: true
-        No_Recoil: true
+        Enable: false
+        No_Recoil: false
     Abilities:
         No_Fall_Damage: true
     Reload:
