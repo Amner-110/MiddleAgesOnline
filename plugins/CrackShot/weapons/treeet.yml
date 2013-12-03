@@ -39,5 +39,6 @@ turret:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Explosive_Devices:
         Enable: true
-        Device_Type: remote
-        Device_Info: 2-1A
+        Device_Type: trap
+        Device_Info: Device_Info: true-true-true-true-true
+        
