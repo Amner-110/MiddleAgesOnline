@@ -37,7 +37,3 @@ turret:
         Explosion_No_Grief: true
         Explosion_Radius: 6
         Sounds_Shooter: SHOOT_ARROW-1-2-0
-    Explosive_Devices:
-        Enable: true
-        Device_Type: trap
-        Device_Info: true-true-true-true-true
