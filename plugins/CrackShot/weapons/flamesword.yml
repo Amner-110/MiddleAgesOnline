@@ -31,7 +31,7 @@
         Sounds_Shooter: GHAST_FIREBALL-1-1-0
         Sounds_Victim: GHAST_FIREBALL-1-1-0
         Sounds_Explode: GHAST_FIREBALL-1-1-0
-　　Potion_Effects:
+    Potion_Effects:
         Activation: hit
         Potion_Effect_Shooter: HUNGER-60-1
         Potion_Effect_Victim: SLOW-60-1
