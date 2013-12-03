@@ -40,5 +40,4 @@ turret:
     Explosive_Devices:
         Enable: true
         Device_Type: trap
-        Device_Info: Device_Info: true-true-true-true-true
-        
+        Device_Info: true-true-true-true-true
