@@ -39,3 +39,4 @@ turret:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Explosive_Devices:
         Enable: true
+        Device_Type: remote
