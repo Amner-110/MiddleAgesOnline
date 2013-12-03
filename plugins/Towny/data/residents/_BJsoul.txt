@@ -1,8 +1,0 @@
-lastOnline=1384081558405
-registered=1384081391301
-isNPC=false
-title=
-surname=
-friends=
-townBlocks=
-protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
