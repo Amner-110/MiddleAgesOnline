@@ -4,7 +4,6 @@ turret:
         Item_Type: 397
         Item_Lore: "&eRocket launcher.|&eFire down at your|&efeet to rocket-jump.|&eNegates fall damage."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
-        Melee_Mode: true
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Melee_Mode: true
