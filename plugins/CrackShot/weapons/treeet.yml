@@ -1,5 +1,5 @@
 treeet:
-	 Item_Information:
+	Item_Information:
         Item_Name: turret
         Item_Type: 145
         Item_Lore: "一定時間発射する固定砲台"
@@ -7,7 +7,7 @@ treeet:
         Skip_Name_Check: false
         Remove_Unused_Tag: true
         Hidden_From_List: false
-     Shooting:
+	Shooting:
         Cancel_Left_Click_Block_Damage: true
         Right_Click_To_Shoot: true
         Cancel_Right_Click_Interactions: false
@@ -15,13 +15,13 @@ treeet:
         Projectile_Type: fireball
         Projectile_Speed: 10
         Sounds_Shoot: ZOMBIE_WOOD-1-0-0,FIZZ-1-1-0
-     Reload:
+	Reload:
         Enable: true
         Reload_Amount: 8
         Reload_Bullets_Individually: true
         Reload_Duration: 10
         Sounds_Reloading: IRONGOLEM_THROW-1-2-0
-     Explosive_Devices:
+    Explosive_Devices:
         Enable: true
         Device_Type: remote
         Device_Info: 2-1A-TheStabbyBunny
