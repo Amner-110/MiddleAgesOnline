@@ -39,5 +39,4 @@ turret:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Explosive_Devices:
         Enable: true
-        Device_Type: itembomb
-        Device_Info: 2,0,145,145
+        Device_Type: landmine
